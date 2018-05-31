@@ -134,21 +134,32 @@
         			</div>
       			</div>
 		</section>
-		<section id="reporte">
+		<section id="reportes">
 	      		<div class="container">
 	        		<div class="row">
 	          			<div class="col-lg-8 mx-auto text-center">
 	            				<h2 class="section-heading">REPORTE</h2>
 	            				<hr class="my-4">
-	            				<p class="mb-5">Se despliega la puchar reporte</p>
-	          			</div>
-					<div class="col-lg-3 col-md-6 text-center">
-            					<div class="service-box mt-5 mx-auto">
-              						<i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
-              						<h3 class="mb-3">hdghgdhd</h3>
-              						<p class="text-muted mb-0">jhhgdhghdsghgjd</p>
-            					</div>
-          				</div>
+	            				<p class="mb-5">Selecciona el/los tipo de gráficas que quieres generar</p>
+						<form>
+  							<input type="checkbox" name="a" value="jdfjhdjfj"> A <br>
+							<input type="checkbox" name="b" value="jdfjhdjfj"> B <br>
+							<input type="checkbox" name="c" value="jdfjhdjfj"> C <br>
+  							<input type="checkbox" name="d" value="kdjfhdj" checked> D <br><br>
+  							<input type="submit" value="Seleccionar">
+						</form>
+						<p class="mb-5">Selecciona el periodo a partit del cuál se van a generar las gráficas</p>
+						<form>
+  							<input type="radio" name="periodo" value="a"> Semanal <br>
+							<input type="radio" name="periodo" value="b"> Mensual <br>
+							<input type="radio" name="periodo" value="c"> 3 Meses <br>
+							<input type="radio" name="periodo" value="c"> 6 Meses <br>
+
+  							<input type="radio" name="periodo" value="e"> Anual <br><br>
+  							<input type="submit" value="Generar">
+						</form>
+						
+					</div> 
           				<div class="col-lg-3 col-md-6 text-center">
             					<div class="service-box mt-5 mx-auto">
               						<i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
@@ -187,12 +198,12 @@
 	            				<hr class="my-4">
 	            				<p class="mb-5">Se despliega la puchar ajustes</p>
 						 <form>
-  							<input type="radio" name="ajuste" value="phishtank" checked> PhishTank<br>
+  							<input type="radio" name="ajuste" value="phishtank" checked> PhishTank<br><br>
   							<input type="radio" name="ajuste" value="tsu">TSU<br>
-							<input type="text" name="tsu" placeholder="&nbsp;Ingresa el TSU"><br>
+							<input type="text" name="tsu" placeholder="&nbsp;Ingresa el TSU"><br><br>
 
   							<input type="radio" name="ajuste" value="proxies">Proxies<br>
-							<input type="text" name="proxies" placeholder="&nbsp;Ingresa los proxies"><br>
+							<input type="text" name="proxies" placeholder="&nbsp;Ingresa los proxies"><br><br>
 
 							<input type="submit" value="Guardar ajustes" />
 						</form>
