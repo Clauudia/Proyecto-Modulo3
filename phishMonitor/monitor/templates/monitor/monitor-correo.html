@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<link rel="stylesheet" type="text/css" href="css/style-monitor.css" />
+		<link rel="stylesheet" type="text/css" href="css/style-monitor-correo.css" />
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
 
@@ -14,7 +14,7 @@
 		<!-- Latest compiled JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-		<title> Monitor </title> 
+		<title> Correo </title> 
 	</head>
 		<header class="masthead text-center text-white d-flex" id="home">
       			<!--Navigation bar-->
@@ -37,21 +37,23 @@
 	            					<h3 class="section-heading">MONITOR</h3>
 	            					<hr >
 	            					<p class="text-faded mb-4">Esta sección se va a desplegar cuando se oprima el botón Monitor</p>
-							
-							<label>ID</label><br>
-							<label>Estado</label><br>
-							<label>Fuente de detección</label><br>
-							<label>Fecha de detección</label><br>
-							<label>Nombre del archivo</label><br>
-							<label>Codififcación</label><br>
-							<label>CC</label><br>
-							<label>Hashes</label><br>	
-							<label>Validado con: </label><br>
-							
-							<img src= "" alt="Captura-dominio">
-							<img src= "" alt="Captura-sitio">
-							<img src= "" alt="Captura">
-											 		
+							<p>REPORTA EL SITIO</p>
+			
+							<form>
+								<label for="nombre"></label>
+								<input type="text" id="nombre" placeholder="&nbsp;Nombre"/> 
+
+								<label for="email"></label>
+								<input type="text" id="nombre" placeholder="&nbsp;Email"/>
+
+								<label for="asunto"></label>
+								<input type="text" id="nombre" placeholder="&nbsp;Asunto"/>
+
+								<label for="mensaje"></label>
+								<textarea cols="40" rows="10" placeholder="&nbsp;Mensaje"></textarea>
+		
+								<input type="submit" value="Enviar" />
+							</form>
 	          				</div>
 	        			</div>
 	      			</div>
